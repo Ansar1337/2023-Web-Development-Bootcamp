@@ -1,0 +1,189 @@
+/* HTML Elements */
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.feature-heading {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1rem 0 0 0;
+}
+
+#title {
+    text-align: left;
+}
+
+/* Sections */
+.coloured-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Navbar styling */
+
+.navbar {
+    padding-bottom: 4rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: 'ubuntu';
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+
+.container-fluid {
+    padding: 3% 15% 6%;
+}
+
+.title-col {
+    padding: 2rem 1rem 1rem;
+}
+
+/* title image */
+.title-img {
+    margin-left: 10rem;
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        margin: auto;
+        width: 60%;
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+/* Buttons */
+.download-button {
+    margin: 5% 3% 3% 0;
+}
+
+/* Features */
+
+#features {
+    position: relative;
+}
+
+.feature-icons {
+    color: #ef8172;
+    height: 1rem;
+    margin: 4rem auto;
+}
+
+.feature-icons:hover {
+    color: #ff4c68;
+}
+
+.feature-para {
+    color: #8f8f8f;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin-right: 2%;
+}
+
+#press {
+    background-color: #ef8172;
+    padding: 2rem;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 1.5rem 1.5rem 2.5rem 1.5rem;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* pricing */
+
+.pricing-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.signup-btn {
+    width: 100%;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.card {
+    margin: 5% 5% auto 5%;
+}
+
+/* call-to-action */
+
+.cta {
+    padding: 7% 15%;
+}
+
+.cta-button {
+    margin: 2rem 0.8rem;
+}
+
+/* Copyright */
+
+.copyright {
+    margin: 7% 15%;
+}
+
+.copyright-icons {
+    margin: 1rem .5rem;
+}
